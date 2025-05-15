@@ -1,7 +1,7 @@
-﻿using WebApplication3.DTOs;
+﻿using WebApplication4.DTOs;
 using System.Threading.Tasks;
 
-namespace WebApplication3.Services
+namespace WebApplication4.Services
 {
     public interface IAuthService
     {

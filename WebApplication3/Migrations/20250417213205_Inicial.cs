@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WebApplication3.Migrations
+namespace WebApplication4.Migrations
 {
     /// <inheritdoc />
     public partial class Inicial : Migration

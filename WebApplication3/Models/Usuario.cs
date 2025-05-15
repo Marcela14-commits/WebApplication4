@@ -1,22 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
 
-namespace WebApplication3.Models
+public class Usuario : IdentityUser
 {
-    public class Usuario
-    {
-        [Key]
-        public int Id { get; set; }
-
-        [Required]
-        public string Nombre { get; set; }
-
-        [Required]
-        public string Email { get; set; }
-
-        [Required]
-        public string Contraseña { get; set; }
-
-        [Required]
-        public string Rol { get; set; } // "Administrador" o "Cliente"
-    }
+    public bool Activo { get; set; } = true;  // Campo para saber si el usuario está activo
+    public string Nombre { get; set; }
+    public string Rol { get; set; }
 }

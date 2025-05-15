@@ -1,4 +1,4 @@
-﻿namespace WebApplication3.DTOs
+﻿namespace WebApplication4.DTOs
 {
     public class AuthResponseDto
     {

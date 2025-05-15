@@ -6,11 +6,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using WebApplication3.Data;
-using WebApplication3.DTOs;
-using WebApplication3.Models;
+using WebApplication4.Data;
+using WebApplication4.DTOs;
+using WebApplication4.Models;
 
-namespace WebApplication3.Services
+namespace WebApplication4.Services
 {
     // constructor inicializa el programa
     

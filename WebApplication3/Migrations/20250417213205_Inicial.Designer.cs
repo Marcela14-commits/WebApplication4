@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication3.Data;
+using WebApplication4.Data;
 
 #nullable disable
 
-namespace WebApplication3.Migrations
+namespace WebApplication4.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20250417213205_Inicial")]
@@ -24,7 +24,7 @@ namespace WebApplication3.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WebApplication3.Models.Usuario", b =>
+            modelBuilder.Entity("WebApplication4.Models.Usuario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
